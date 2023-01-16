@@ -128,6 +128,8 @@ const recipes: IRecipe[] = [
 ];
 
 export const handler = (_req: Request, _ctx: HandlerContext) => {
+    console.log("Context", _ctx);
+    
   const randomRecipe: number = Math.floor(Math.random() * recipes.length);
   const body = recipes[randomRecipe];
   return new Response(JSON.stringify(body), {

@@ -5,16 +5,20 @@
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/[name].tsx";
 import * as $1 from "./routes/about.tsx";
-import * as $2 from "./routes/api/joke.ts";
-import * as $3 from "./routes/api/recipes.ts";
-import * as $4 from "./routes/blog/[blog].tsx";
-import * as $5 from "./routes/countdown.tsx";
-import * as $6 from "./routes/github/[username].tsx";
-import * as $7 from "./routes/index.tsx";
-import * as $8 from "./routes/recipe.tsx";
-import * as $9 from "./routes/recipes/[recipe].tsx";
-import * as $10 from "./routes/recipes/index.tsx";
-import * as $11 from "./routes/search.tsx";
+import * as $2 from "./routes/api/deleteRecipe.ts";
+import * as $3 from "./routes/api/getRecipe.ts";
+import * as $4 from "./routes/api/joke.ts";
+import * as $5 from "./routes/api/postRecipe.ts";
+import * as $6 from "./routes/api/recipes.ts";
+import * as $7 from "./routes/api/updateRecipe.ts";
+import * as $8 from "./routes/blog/[blog].tsx";
+import * as $9 from "./routes/countdown.tsx";
+import * as $10 from "./routes/github/[username].tsx";
+import * as $11 from "./routes/index.tsx";
+import * as $12 from "./routes/recipe.tsx";
+import * as $13 from "./routes/recipes/[recipe].tsx";
+import * as $14 from "./routes/recipes/index.tsx";
+import * as $15 from "./routes/search.tsx";
 import * as $$0 from "./islands/Coundown.tsx";
 import * as $$1 from "./islands/Counter.tsx";
 
@@ -22,16 +26,20 @@ const manifest = {
   routes: {
     "./routes/[name].tsx": $0,
     "./routes/about.tsx": $1,
-    "./routes/api/joke.ts": $2,
-    "./routes/api/recipes.ts": $3,
-    "./routes/blog/[blog].tsx": $4,
-    "./routes/countdown.tsx": $5,
-    "./routes/github/[username].tsx": $6,
-    "./routes/index.tsx": $7,
-    "./routes/recipe.tsx": $8,
-    "./routes/recipes/[recipe].tsx": $9,
-    "./routes/recipes/index.tsx": $10,
-    "./routes/search.tsx": $11,
+    "./routes/api/deleteRecipe.ts": $2,
+    "./routes/api/getRecipe.ts": $3,
+    "./routes/api/joke.ts": $4,
+    "./routes/api/postRecipe.ts": $5,
+    "./routes/api/recipes.ts": $6,
+    "./routes/api/updateRecipe.ts": $7,
+    "./routes/blog/[blog].tsx": $8,
+    "./routes/countdown.tsx": $9,
+    "./routes/github/[username].tsx": $10,
+    "./routes/index.tsx": $11,
+    "./routes/recipe.tsx": $12,
+    "./routes/recipes/[recipe].tsx": $13,
+    "./routes/recipes/index.tsx": $14,
+    "./routes/search.tsx": $15,
   },
   islands: {
     "./islands/Coundown.tsx": $$0,
