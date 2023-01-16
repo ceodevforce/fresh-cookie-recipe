@@ -123,5 +123,18 @@
     "https://esm.sh/v102/twind@0.16.17/deno/twind.js": "e17fb790cde4d22c0e7136c5c8d6a6072edf3be5749138635ab238fed089e291",
     "https://esm.sh/v102/twind@0.16.17/sheets/sheets.d.ts": "06603b392909a52b622da76fc468f604b23d4d1ff02131f55bf236c52e2713cc",
     "https://esm.sh/v102/twind@0.16.17/twind.d.ts": "1f873cb0b50cb28ce11ff8655d68df028f46095f969920c78421b801c84fb573"
+  },
+  "npm": {
+    "specifiers": { "prisma": "prisma@4.8.1" },
+    "packages": {
+      "@prisma/engines@4.8.1": {
+        "integrity": "sha512-93tctjNXcIS+i/e552IO6tqw17sX8liivv8WX9lDMCpEEe3ci+nT9F+1oHtAafqruXLepKF80i/D20Mm+ESlOw==",
+        "dependencies": {}
+      },
+      "prisma@4.8.1": {
+        "integrity": "sha512-ZMLnSjwulIeYfaU1O6/LF6PEJzxN5par5weykxMykS9Z6ara/j76JH3Yo2AH3bgJbPN4Z6NeCK9s5fDkzf33cg==",
+        "dependencies": { "@prisma/engines": "@prisma/engines@4.8.1" }
+      }
+    }
   }
 }
